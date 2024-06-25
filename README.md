@@ -1,5 +1,9 @@
 # Research on SETI Data Using CNN Models with Transfer Learning
 
+This repository is connected via Kaggle notebooks. Updates will reflect Kaggle's version upgrades.
+
+<sub> ****P.S.*** The project was completed under CSE498R (Research) course offered by North South University.*<sub/>
+
 #### Abstract
 This study explores the use of Convolutional Neural Networks (CNNs) with transfer learning to classify images from the SETI (Search for Extraterrestrial Intelligence) dataset, aiming to detect potential extraterrestrial signals. By leveraging advanced CNN architectures and pre-trained models across different frameworks, the research achieved significant accuracy, demonstrating the efficacy of transfer learning in specialized tasks.
 
@@ -48,22 +52,31 @@ The SETI dataset comprises radio signal data visualized as images, necessitating
    - **Better Generalization:** Pretrained models, having been trained on a large dataset, can generalize better to new, unseen data.
 
 **Model Architecture Details**
-
 1. **InceptionResNetV2:**
    - **Architecture:** Combines Inception modules with residual connections, allowing very deep networks without degradation.
    - **Specialty:** Balances the width and depth of the network, capturing diverse and complex features.
+     
+   <img src="https://github.com/HR-Fahim/Research-on-SETI-Data-Using-CNN-Models-with-Transfer-Learning/assets/66734379/b2b9bb20-cc61-470d-96a5-618317de0abe" alt="Inception-ResNet-v2-Overall-Network-Structure-and-Module-Structure-Diagrams" style="display: block; margin: 0 auto; width: 300px; height: 300px; object-fit: contain;">
 
 2. **ResNet50:**
    - **Architecture:** Utilizes residual blocks that help in training deeper networks by adding shortcut connections.
    - **Specialty:** Effective in preventing the vanishing gradient problem, allowing for the construction of very deep networks.
+     
+   <img src="https://github.com/HR-Fahim/Research-on-SETI-Data-Using-CNN-Models-with-Transfer-Learning/assets/66734379/bce324c6-01ee-410c-ba0e-21763a217cb0" alt="Block-diagram-of-Resnet-50-1-by-2-architecture" style="display: block; margin: 0 auto; width: 300px; height: 300px; object-fit: contain;">
 
 3. **MobileNetV2:**
    - **Architecture:** Uses depthwise separable convolutions and linear bottlenecks to create a lightweight model.
    - **Specialty:** Highly efficient for mobile and edge devices, balancing accuracy and computational cost.
+     
+   <img src="https://github.com/HR-Fahim/Research-on-SETI-Data-Using-CNN-Models-with-Transfer-Learning/assets/66734379/cc46f663-7b70-4edc-9a82-2707872474a1" alt="The-architecture-of-the-MobileNetv2-network" style="display: block; margin: 0 auto; width: 600px; height: 300px; object-fit: contain;">
 
 4. **InceptionV3 and InceptionV4:**
    - **Architecture:** Incorporates Inception modules applying multiple convolutional filters to the same input to capture various types of features.
    - **Specialty:** Enhances the network's ability to extract rich image features, leading to improved performance.
+     
+   <img src="https://github.com/HR-Fahim/Research-on-SETI-Data-Using-CNN-Models-with-Transfer-Learning/assets/66734379/af50b155-dc56-4963-bae6-3b01068cff0a" alt="The-architecture-of-Inception-V3-model" style="display: block; margin: 0 auto; width: 600px; height: 300px; object-fit: contain;">
+   
+   <img src="https://github.com/HR-Fahim/Research-on-SETI-Data-Using-CNN-Models-with-Transfer-Learning/assets/66734379/c9acee22-c1f9-444b-8d39-b120b75cb735" alt="The-architecture-of-inception-v4-model" style="display: block; margin: 0 auto; width: 300px; height: 300px; object-fit: contain;">
 
 #### Results and Discussion
 
