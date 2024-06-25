@@ -7,7 +7,7 @@ This repository is connected via Kaggle notebooks. Updates will reflect Kaggle's
 #### Abstract
 This study explores the use of Convolutional Neural Networks (CNNs) with transfer learning to classify images from the SETI (Search for Extraterrestrial Intelligence) dataset, aiming to detect potential extraterrestrial signals. By leveraging advanced CNN architectures and pre-trained models across different frameworks, the research achieved significant accuracy, demonstrating the efficacy of transfer learning in specialized tasks.
 
-<img src="https://github.com/HR-Fahim/Research-on-SETI-Data-Using-CNN-Models-with-Transfer-Learning/assets/66734379/88c4753b-3dd7-415a-b1cc-e5fc88c752b6" alt="An-example-of-CNN-architecture" style="display: block; margin: 0 auto; width: 900px; height: 300px; object-fit: contain;">
+<img src="https://github.com/HR-Fahim/Research-on-SETI-Data-Using-CNN-Models-with-Transfer-Learning/assets/66734379/67b0c9c4-b309-4695-8551-6ed5cdb7c3c8" alt="Flow-of-the-Transfer-Learning-in-Convolutional-Neural-Network" style="display: block; margin: 0 auto; width: 600px; height: 600px; object-fit: contain;">
 
 #### Introduction
 The SETI dataset comprises radio signal data visualized as images, necessitating sophisticated image classification techniques to identify potential extraterrestrial signals. Convolutional Neural Networks (CNNs) have proven effective for image classification tasks. This study investigates the application of transfer learning using various pre-trained CNN models to enhance the accuracy and efficiency of the classification process.
