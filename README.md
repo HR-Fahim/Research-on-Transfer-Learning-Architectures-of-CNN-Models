@@ -7,6 +7,8 @@ This repository is connected via Kaggle notebooks. Updates will reflect Kaggle's
 #### Abstract
 This study explores the use of Convolutional Neural Networks (CNNs) with transfer learning to classify images from the SETI (Search for Extraterrestrial Intelligence) dataset, aiming to detect potential extraterrestrial signals. By leveraging advanced CNN architectures and pre-trained models across different frameworks, the research achieved significant accuracy, demonstrating the efficacy of transfer learning in specialized tasks.
 
+<img src="https://github.com/HR-Fahim/Research-on-SETI-Data-Using-CNN-Models-with-Transfer-Learning/assets/66734379/88c4753b-3dd7-415a-b1cc-e5fc88c752b6" alt="An-example-of-CNN-architecture" style="display: block; margin: 0 auto; width: 900px; height: 300px; object-fit: contain;">
+
 #### Introduction
 The SETI dataset comprises radio signal data visualized as images, necessitating sophisticated image classification techniques to identify potential extraterrestrial signals. Convolutional Neural Networks (CNNs) have proven effective for image classification tasks. This study investigates the application of transfer learning using various pre-trained CNN models to enhance the accuracy and efficiency of the classification process.
 
@@ -56,13 +58,13 @@ The SETI dataset comprises radio signal data visualized as images, necessitating
    - **Architecture:** Combines Inception modules with residual connections, allowing very deep networks without degradation.
    - **Specialty:** Balances the width and depth of the network, capturing diverse and complex features.
      
-   <img src="https://github.com/HR-Fahim/Research-on-SETI-Data-Using-CNN-Models-with-Transfer-Learning/assets/66734379/b2b9bb20-cc61-470d-96a5-618317de0abe" alt="Inception-ResNet-v2-Overall-Network-Structure-and-Module-Structure-Diagrams" style="display: block; margin: 0 auto; width: 300px; height: 300px; object-fit: contain;">
+   <img src="https://github.com/HR-Fahim/Research-on-SETI-Data-Using-CNN-Models-with-Transfer-Learning/assets/66734379/b2b9bb20-cc61-470d-96a5-618317de0abe" alt="Inception-ResNet-v2-Overall-Network-Structure-and-Module-Structure-Diagrams" style="display: block; margin: 0 auto; width: 600px; height: 600px; object-fit: contain;">
 
 2. **ResNet50:**
    - **Architecture:** Utilizes residual blocks that help in training deeper networks by adding shortcut connections.
    - **Specialty:** Effective in preventing the vanishing gradient problem, allowing for the construction of very deep networks.
      
-   <img src="https://github.com/HR-Fahim/Research-on-SETI-Data-Using-CNN-Models-with-Transfer-Learning/assets/66734379/bce324c6-01ee-410c-ba0e-21763a217cb0" alt="Block-diagram-of-Resnet-50-1-by-2-architecture" style="display: block; margin: 0 auto; width: 300px; height: 300px; object-fit: contain;">
+   <img src="https://github.com/HR-Fahim/Research-on-SETI-Data-Using-CNN-Models-with-Transfer-Learning/assets/66734379/bce324c6-01ee-410c-ba0e-21763a217cb0" alt="Block-diagram-of-Resnet-50-1-by-2-architecture" style="display: block; margin: 0 auto; width: 600px; height: 600px; object-fit: contain;">
 
 3. **MobileNetV2:**
    - **Architecture:** Uses depthwise separable convolutions and linear bottlenecks to create a lightweight model.
@@ -76,7 +78,7 @@ The SETI dataset comprises radio signal data visualized as images, necessitating
      
    <img src="https://github.com/HR-Fahim/Research-on-SETI-Data-Using-CNN-Models-with-Transfer-Learning/assets/66734379/af50b155-dc56-4963-bae6-3b01068cff0a" alt="The-architecture-of-Inception-V3-model" style="display: block; margin: 0 auto; width: 600px; height: 300px; object-fit: contain;">
    
-   <img src="https://github.com/HR-Fahim/Research-on-SETI-Data-Using-CNN-Models-with-Transfer-Learning/assets/66734379/c9acee22-c1f9-444b-8d39-b120b75cb735" alt="The-architecture-of-inception-v4-model" style="display: block; margin: 0 auto; width: 300px; height: 300px; object-fit: contain;">
+   <img src="https://github.com/HR-Fahim/Research-on-SETI-Data-Using-CNN-Models-with-Transfer-Learning/assets/66734379/c9acee22-c1f9-444b-8d39-b120b75cb735" alt="The-architecture-of-inception-v4-model" style="display: block; margin: 0 auto; width: 600px; height: 600px; object-fit: contain;">
 
 #### Results and Discussion
 
