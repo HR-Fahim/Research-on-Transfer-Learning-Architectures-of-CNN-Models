@@ -20,7 +20,7 @@ The SETI dataset comprises radio signal data visualized as images, necessitating
    - **InceptionResNetV2:** This model combines the Inception architecture with residual connections, enhancing network depth and efficiency.
    - **ResNet50:** Known for its residual learning framework, ResNet50 helps in training very deep networks by mitigating the vanishing gradient problem.
    - **MobileNetV2:** Designed for mobile and edge devices, MobileNetV2 is efficient and lightweight, making it suitable for tasks requiring lower computational resources.
-   - **Performance:** The TensorFlow models achieved an accuracy of around 86%.
+   - **Performance:** The TensorFlow models achieved an accuracy of around 87%.
 
 2. **PyTorch Models:**
    - **First PyTorch Model (95% Accuracy):**
@@ -83,7 +83,7 @@ The SETI dataset comprises radio signal data visualized as images, necessitating
 #### Results and Discussion
 
 **TensorFlow Models:**
-The TensorFlow models, including InceptionResNetV2, ResNet50, and MobileNetV2, achieved an accuracy of approximately 86%. This performance demonstrates the capability of these architectures in extracting relevant features from the SETI dataset.
+The TensorFlow models, including InceptionResNetV2, ResNet50, and MobileNetV2, achieved an accuracy of approximately 87%. This performance demonstrates the capability of these architectures in extracting relevant features from the SETI dataset.
 
 **First PyTorch Model:**
 Combining ResNet50 and InceptionV3, the first PyTorch model reached a high accuracy of 95%. The combination of residual connections and inception modules significantly enhanced feature extraction and classification performance.
