@@ -1,4 +1,4 @@
-# Research on SETI Data Using CNN Models with Transfer Learning
+# Research on Transfer Learning Architectures of CNN Models
 
 This repository is connected via Kaggle notebooks. Updates will reflect Kaggle's version upgrades.
 
