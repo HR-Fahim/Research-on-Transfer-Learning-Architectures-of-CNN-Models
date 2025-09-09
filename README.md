@@ -4,6 +4,7 @@ This repository is connected via Kaggle notebooks. Updates will reflect Kaggle's
 
 <sub> ****P.S.*** The project was completed under CSE498R (Research) course offered by North South University.*<sub/>
 
+<!--
 #### Abstract
 This study explores the use of Convolutional Neural Networks (CNNs) with transfer learning to classify images from the SETI (Search for Extraterrestrial Intelligence) dataset, aiming to detect potential extraterrestrial signals. By leveraging advanced CNN architectures and pre-trained models across different frameworks, the research achieved significant accuracy, demonstrating the efficacy of transfer learning in specialized tasks.
 
@@ -93,3 +94,4 @@ The second PyTorch model, using ResNet50 and InceptionV4, achieved an accuracy o
 
 #### Conclusion
 The research demonstrates the power of transfer learning and advanced CNN architectures in enhancing the performance of models for specialized tasks such as SETI signal classification. By leveraging pre-trained models and fine-tuning them, significant improvements in accuracy were achieved, making this approach highly effective for the SETI dataset. The unique preprocessing techniques and careful selection of architectures further contributed to the success of this research. Future work may explore further enhancements and additional architectures to push the boundaries of SETI signal detection.
+-->
