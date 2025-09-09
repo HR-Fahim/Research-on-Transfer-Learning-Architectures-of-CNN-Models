@@ -1,4 +1,4 @@
-# Research on Transfer Learning Architectures of CNN Models
+# Thesis on SETI Spectrogram Radio Signals Classification Using CNNs
 
 This repository is connected via Kaggle notebooks. Updates will reflect Kaggle's version upgrades.
 
